@@ -32,3 +32,62 @@
   text-decoration: underline;
   color: seashell;
 }
+
+.maincontainerone {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.missionsection {
+  display: flex;
+  background-image: url("../img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.ourmission {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  width: 1200px;
+}
+
+.maincontainertwo {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.teasection {
+  width: 1000px;
+}
+
+.rowone {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.rowtwo {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+ .picone h4 {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+ }
+
+ .pictwo h4 {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+ }
