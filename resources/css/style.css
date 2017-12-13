@@ -65,6 +65,19 @@
 
 .teasection {
   width: 1000px;
+  margin-top: 70px;
+}
+
+.teasection h2{
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+}
+.teasection h4{
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  font-size: 18px;
 }
 
 .rowone {
@@ -91,3 +104,119 @@
    color: seashell;
    text-align: center;
  }
+
+ .maincontainerthree {
+   display: flex;
+   justify-content: center;
+   background-color: black;
+ }
+
+.locationsheadline {
+  display: flex;
+  font-family: Helvetica;
+  color: seashell;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+ .locationssection {
+   background-image: url("../img-locations-background2.jpg");
+   height: 500px;
+   width: 1200px;
+ }
+
+.locationsrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+ .downtown {
+   width: 300px;
+   height: 250px;
+   background-color: black;
+   margin: 20px;
+ }
+
+ .downtown h3 {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+   padding-top: 35px;
+ }
+
+ .downtown p {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+ }
+
+ .eastbayside {
+   width: 300px;
+   height: 250px;
+   background-color: black;
+   margin: 20px;
+ }
+
+ .eastbayside h3 {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+   padding-top: 35px;
+ }
+
+ .eastbayside p {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+ }
+
+ .oadkdale {
+   width: 300px;
+   height: 250px;
+   background-color: black;
+   margin: 20px;
+ }
+
+ .oadkdale h3 {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+   padding-top: 35px;
+ }
+
+ .oadkdale p {
+   font-family: Helvetica;
+   color: seashell;
+   text-align: center;
+ }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 200px;
+}
+
+.footercontent {
+  font-family: Helvetica;
+  color: seashell;
+  width: 1200px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footercontent h2 {
+  text-align: center;
+}
+
+.footercontent h5 {
+  text-align: center;
+}
+
+.footercontent p {
+  text-align: left;
+  font-size: 10px;
+}
